@@ -1,0 +1,65 @@
+.Home {
+
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    width: 100%;
+    background: rebeccapurple;
+
+    .HomeContainer {
+        width: 80%;
+        position: relative;
+        margin: 100px auto;
+
+        h2 {
+            font-size: 4rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        .iconsHome {
+            margin-top: 10px;
+            display: flex;
+            gap: 20px;
+            font-size: 3rem;
+
+            .iconHome {
+                color: #008CBA;
+                transition: 0.3s;
+            }
+
+            .iconHome:hover {
+                transform: translateY(-10px);
+                cursor: pointer;
+            }
+
+            h4 {
+                margin: 0;
+                background-color: #008CBA;
+                color: white;
+                padding: 5px;
+                border-radius: 10px;
+                font-size: 1.5rem;
+                transition: 0.5s;
+
+
+
+            }
+
+            h4:hover {
+                color: rgb(206, 236, 240);
+                cursor: pointer;
+
+                .iconCv {
+                    transition: 0.5s;
+                }
+
+                .iconCv {
+                    transform: translateY(-5px);
+                }
+            }
+        }
+
+    }
+}
